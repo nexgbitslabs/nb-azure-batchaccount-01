@@ -29,10 +29,10 @@ sudo waagent -deprovision+user
 
 2.	Run these commands in Azure
 ### Deallocate the VM
-az vm deallocate --name <vm-name> --resource-group <rg>
+```az vm deallocate --name <vm-name> --resource-group <rg>```
 
 ### Generalize the VM
-az vm generalize --name <vm-name> --resource-group <rg>
+```az vm generalize --name <vm-name> --resource-group <rg>```
 
 ### Create an image
 az image create \
